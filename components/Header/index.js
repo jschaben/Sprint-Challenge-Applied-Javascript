@@ -30,4 +30,6 @@ function Header() {
     return header;
 }
 
-Header();
+const NewHeader = document.querySelector(".header-container");
+
+NewHeader.appendChild(Header());
