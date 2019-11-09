@@ -11,7 +11,7 @@
 function newTab(info) {
     const tab = document.createElement('div');
     tab.classList.add('tab');
-    tab.textContent = `${info}`;
+    tab.textContent = info;
 
     return tab;
 };
