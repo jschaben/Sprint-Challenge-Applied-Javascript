@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Dom stands for document object model. It is an object representation of the html elements of a webpage. It is a representation of the HTML document that we can use Javascprit to manipulate and add different styles or eventss
+
 2. What is an event?
+
+An event is something that happens to an HTML element, that are input from the user, such as mouse clicks, mouse gestures, keyboard presses, and more.
 
 3. What is an event listener?
 
+An event listener is a piece of code that tells an HTML element react to a certain event, such as a click. When the event has occured, it then runs that function.
+
 4. Why would we convert a NodeList into an Array?
 
+NodeLists have only a small number of methods such as forEach. If we want to use more like .map or .reduce we have to convert the NodeList into an array.
+
 5. What is a component?
+
+A component is a reuseable set of code (reminds me of mixins) that can be used multiple times, and comes with its own prebuilt styling and methods. 
 
 ### Git Set up
 
